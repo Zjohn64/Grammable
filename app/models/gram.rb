@@ -4,4 +4,5 @@ class Gram < ApplicationRecord
 
 	belongs_to :user
 	mount_uploader :picture, PictureUploader
+	has_many :comments
 end
